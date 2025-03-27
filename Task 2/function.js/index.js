@@ -43,9 +43,6 @@ btnInsertUpdate.addEventListener("click", () => {
         btnInsertUpdate.value = "insert";
     }
 
-    for (const txt of inputTxt) {
-        txt.value = "";
-    }
 
     iterateRecords();
 });
